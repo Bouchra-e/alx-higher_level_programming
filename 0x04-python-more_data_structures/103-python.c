@@ -11,8 +11,8 @@ void print_python_list(PyObject *p);
  * Return: no return
  */
 void print_python_bytes(PyObject *p)
+
 {
-	PyBytesObject *bytes = (PyBytesObject *)p;
 	Py_ssize_t size, i, limit;
 
 	printf("[.] bytes object info\n");
